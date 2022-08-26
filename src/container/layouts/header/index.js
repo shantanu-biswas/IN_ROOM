@@ -6,7 +6,7 @@ function Header() {
     return (
         <div className="flexRow header alignCntr pdngXS">
             <div className='flexAutoRow logoImgCntnr pdngHSM alignCntr'>
-                <Link to="/dashboard" className="headerBrandindLink">
+                <Link to="" className="headerBrandindLink">
                     <img src='/FaviconInRoom.png' alt='inapi logo' />
                 </Link>
             </div>

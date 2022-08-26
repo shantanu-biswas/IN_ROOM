@@ -1,7 +1,7 @@
 *,*::before,*::after { box-sizing: border-box; padding: 0; margin: 0; }
 :root {
 /* COLORS */
---baseColor: #f2f5f7;
+--baseColor: #8fbfdf;
 --baseDColor: #E0E2E7;
 --baseSuperDColor: #E5E7EC;
 --whiteColor: #FFF;
@@ -111,7 +111,7 @@ a { font-size: 1.0rem; word-break: break-all; line-height: 22px; }
 
 /* ONE TIME USE IN APP COMPONENT */
 .baseBlockCntnr { display: block; width: 100%; min-height: 100%; overflow-y: auto; overflow-x: hidden; scroll-behavior: smooth; color: var(--fontColor);
-background-color: var(--baseColor);}
+background-image: linear-gradient(to bottom ,#68b2e4, #7cb9e2, #9fbed3 ) ;}
 .mainCntnr { height: 100%; padding: 4.0rem 0 0 0; position: relative; }
 .innerMainCntnr { height: 100%; width: calc(100% - 256px); padding: 4.0rem 0 0 0; position: relative;  }
 
@@ -254,7 +254,8 @@ background-color: var(--baseColor);}
 /* MENU ICONS */
 .menuIcon { font-size: 18px !important; margin-right: 12px; color: rgba(0,0,0,0.60);}
 
-/* ACTION BTN BOX */
+/* ACTION BTN BOX */      
+
 .actionBox { display: inline-flex; align-items: center; justify-content: center; }
 .actionBox.actionBoxSM { width: 32px; height: 32px; }
 .actionBox.actionBoxMD { width: 40px; height: 40px; }
@@ -271,3 +272,17 @@ background-color: var(--baseColor);}
 
 .textField{font-size: 1.25rem !important;}
 .redStar { color: var(--dangerColor);}
+
+/* SHADOW */
+.shadow{
+    box-shadow: 0 0 4px lightgrey;
+}
+.inShadow{
+    box-shadow: inset 0 0 8px lightgray;
+}
+
+/* HOVER */
+.pointer{
+    cursor: pointer;
+}
+

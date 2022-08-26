@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 0 0 4px lightgrey;
+    /* box-shadow: 0 0 4px lightgrey; */
     background-color: var(--whiteColor);
 
 }

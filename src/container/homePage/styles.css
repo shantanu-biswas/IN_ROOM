@@ -1,9 +1,6 @@
-.width30{
-    width: calc(100% / 3);
+.width35{
+    width: 35%;
 }
-.width50{
-    width: calc(100% / 2);
-}
-.width25{
-    width: calc(100% / 4);
+.width65{
+    width: 65%;
 }
